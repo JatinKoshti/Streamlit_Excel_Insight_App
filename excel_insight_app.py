@@ -4,7 +4,7 @@ from openai import OpenAI
 import io
 
 # ── Config ────────────────────────────────────────────────────────────────────
-MODEL = "gpt-4o-mini"  # 🔒 Fixed — users cannot change this
+MODEL = "gpt-4o"  # 🔒 Fixed — users cannot change this
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="Excel Data Chatbot", page_icon="📊", layout="centered")
